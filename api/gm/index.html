@@ -1,0 +1,441 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.860f167d6a7fa0bca010.css">code[class*=language-],pre[class*=language-]{color:#000;background:none;text-shadow:0 .0625rem #fff;font-family:Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}code[class*=language-]::-moz-selection,code[class*=language-] ::-moz-selection,pre[class*=language-]::-moz-selection,pre[class*=language-] ::-moz-selection{text-shadow:none;background:#b3d4fc}code[class*=language-]::selection,code[class*=language-] ::selection,pre[class*=language-]::selection,pre[class*=language-] ::selection{text-shadow:none;background:#b3d4fc}@media print{code[class*=language-],pre[class*=language-]{text-shadow:none}}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto}:not(pre)>code[class*=language-],pre[class*=language-]{background:#f5f2f0}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#999}.namespace{opacity:.7}.token.boolean,.token.constant,.token.deleted,.token.number,.token.property,.token.symbol,.token.tag{color:#905}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#690}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url{color:#9a6e3a;background:hsla(0,0%,100%,.5)}.token.atrule,.token.attr-value,.token.keyword{color:#07a}.token.class-name,.token.function{color:#dd4a68}.token.important,.token.regex,.token.variable{color:#e90}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:.0625rem dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-.125rem}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden],template{display:none}body{font-family:Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;color:#333;line-height:1.5}h1,h2,h3,h4,h5,h6{font-weight:500}h1{margin-top:3.75rem;font-size:2.5rem}h2{margin-top:2.5rem;font-size:1.6875rem}.page-body h2{padding-top:5rem;margin-top:-3.75rem}h3{margin-top:2.5rem;font-size:1.375rem}.page-body h3{padding-top:5rem;margin-top:-3.75rem}h4{margin-top:1.25rem;font-size:1.2rem}.page-body h4{padding-top:5rem;margin-top:-5rem}h5{margin-top:1rem;font-size:1rem}.page-body h5{padding-top:5rem;margin-top:-5.25rem}h6{margin-top:1rem;font-size:1rem}.page-body h6{padding-top:5rem;margin-top:-5.25rem}ul{list-style:square;margin-bottom:1.25rem}ul li{padding:0 .3125rem;margin-bottom:.625rem}a{color:#5d93ff;text-decoration:none}a:hover{color:#f7a046}hr{width:6.25rem;height:.25rem;margin:3.75rem auto;border:none;background:#666}img{display:block;max-width:100%}details{padding:.5rem 1rem;border:.0625rem solid #ddd;border-radius:.5rem}.d-flex{display:-webkit-box;display:flex}.flex-spacer{-webkit-box-flex:1;flex:auto}.label{padding:.25rem .5rem;color:#3498db;font-size:.75rem;border:.0625rem solid;border-radius:1rem}.note{padding:.5rem 1rem;background:#f7f8f9;color:#66758c}:not(pre)>code[class*=language-]{word-break:break-word}.gatsby-highlight-code-line{background-color:rgba(0,0,0,.06667);display:block;margin-right:-1em;margin-left:-1em;padding-right:1em;padding-left:.75em;border-left:.25em solid #f99}.gatsby-highlight{background-color:#f5f2f0;border-radius:.3em;margin-bottom:1rem;padding:1em;overflow:auto}.gatsby-highlight pre[class*=language-]{background-color:transparent;margin:0;padding:0;overflow:visible;overflow:initial;float:left;min-width:100%}.mermaid{overflow-x:auto}header{position:fixed;top:0;left:0;right:0;background:#fefeff;z-index:1}nav{-webkit-box-align:center;align-items:center;padding:0 1rem;box-shadow:0 0 .3125rem #ccc}nav>a{display:block;margin:0 .625rem;padding:0;font-size:1rem;color:#222}.nav-link.active,.nav-link:focus,.nav-link:hover{color:#222;border-bottom:.0625rem solid}.nav-link:focus,.nav-link:hover{color:#5d93ff}.logo{padding:.5rem}.logo img{height:3rem}.footer{padding:1.25rem;border-top:.0625rem solid #ddd}.content{box-sizing:border-box;max-width:66.875rem;margin:4.375rem auto 0}.content>main{min-height:60vh;padding:1.25rem}.content>main>h1:first-child{margin-top:0;text-align:center}.post a{text-decoration:underline}.post-tag{list-style:none;padding:0}.post-tag-item{display:inline-block;margin:.625rem .3125rem;padding:0}.post-tag-item>a{background:#e9e9e9;border:0;border-radius:.1875rem;color:#4e4e4e;line-height:1.625;padding:.5rem 1rem}.post-tag-item>a:focus,.post-tag-item>a:hover{color:#222;background:#ddd;border:0}.postitem{margin-bottom:1.25rem}.postitem-title{margin-top:0;font-size:1.6875rem}.postitem-title-link{color:#222}.postitem-title-link:focus,.postitem-title-link:hover{color:#222;border-bottom:.0625rem solid #222}.postitem-description{margin-bottom:1.25rem;font-size:1rem}.postitem-meta-time{margin-right:.5rem;color:#222}.postitem-meta-category-link,.postitem-meta-time{font-size:.875rem;font-weight:500;text-transform:uppercase}.postitem-meta-category-link{color:#f7a046}.postitem-meta-category-link:focus,.postitem-meta-category-link:hover{color:#5d93ff}.postitem-readmore{font-size:1rem;color:#5d93ff}.postitem-readmore:focus,.postitem-readmore:hover{color:#5d93ff;border-bottom:.0625rem solid #5d93ff}.donate{text-align:center}.donate-group{display:inline-block;padding:.5rem 1rem;border:.0625rem solid #ddd}.donate-group:first-child{border-top-left-radius:.5rem;border-bottom-left-radius:.5rem}.donate-group:last-child{border-top-right-radius:.5rem;border-bottom-right-radius:.5rem}.donate-group:not(:last-child){border-right:none}.donate-group>img{height:.875rem;-webkit-filter:grayscale(1) opacity(.5);filter:grayscale(1) opacity(.5);-webkit-transition:-webkit-filter .5s;transition:-webkit-filter .5s;transition:filter .5s;transition:filter .5s,-webkit-filter .5s}.donate-group.active>img,.donate-group:hover>img{-webkit-filter:grayscale(0) opacity(1);filter:grayscale(0) opacity(1)}.donate-image{width:13.875rem;margin:0 auto}.page-index-header{margin-bottom:2.5rem;text-align:center}.page-index-logo{display:inline-block}.page-index-logo img{width:6rem}.page-index h1{margin-top:1.25rem;margin-bottom:0}.page-index h2{margin-top:.625rem;margin-bottom:0}.page-index-buttons{margin-top:1.5rem}.page-index-buttons a{display:inline-block;margin-top:.5rem;margin-left:.75rem;margin-right:.75rem;padding:.5rem 1rem;border:.0625rem solid;border-radius:1.5rem}.page-index-buttons a[target=_blank]:not(:hover){color:grey}</style><meta name="generator" content="Gatsby 2.17.10"/><style type="text/css">
+    .anchor {
+      float: left;
+      padding-right: 4px;
+      margin-left: -20px;
+    }
+    h1 .anchor svg,
+    h2 .anchor svg,
+    h3 .anchor svg,
+    h4 .anchor svg,
+    h5 .anchor svg,
+    h6 .anchor svg {
+      visibility: hidden;
+    }
+    h1:hover .anchor svg,
+    h2:hover .anchor svg,
+    h3:hover .anchor svg,
+    h4:hover .anchor svg,
+    h5:hover .anchor svg,
+    h6:hover .anchor svg,
+    h1 .anchor:focus svg,
+    h2 .anchor:focus svg,
+    h3 .anchor:focus svg,
+    h4 .anchor:focus svg,
+    h5 .anchor:focus svg,
+    h6 .anchor:focus svg {
+      visibility: visible;
+    }
+  </style><script>
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var hash = window.decodeURI(location.hash.replace('#', ''))
+      if (hash !== '') {
+        var element = document.getElementById(hash)
+        if (element) {
+          var offset = element.offsetTop
+          // Wait for the browser to finish rendering before scrolling.
+          setTimeout((function() {
+            window.scrollTo(0, offset - 70)
+          }), 0)
+        }
+      }
+    })
+  </script><style type="text/css">.gatsby-resp-image-image{width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;color:transparent;}</style><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="sitemap" type="application/xml" href="/sitemap.xml"/><link rel="manifest" href="/manifest.webmanifest"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png"/><title data-react-helmet="true">GM_* APIs - Violentmonkey</title><link data-react-helmet="true" rel="shortcut icon" type="image/png" href="/static/vm-e0d9ed50fb982761b0f7cdea8b093ae9.png"/><meta data-react-helmet="true" name="description" content=""/><link as="script" rel="preload" href="/app-f1a8ae6a3ca45b77fac0.js"/><link as="script" rel="preload" href="/component---src-templates-page-template-js-4fa4a6bf396e700d98a6.js"/><link as="script" rel="preload" href="/styles-ed0dc4fc70e1fe44984b.js"/><link as="script" rel="preload" href="/commons-87aa9a6d86164b33adcf.js"/><link as="script" rel="preload" href="/webpack-runtime-a117643eb54a4cdba413.js"/><link as="fetch" rel="preload" href="/page-data/api/gm/page-data.json" crossorigin="anonymous"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><header><nav class="d-flex"><a class="logo" href="/"><img src="/static/vm-e0d9ed50fb982761b0f7cdea8b093ae9.png"/></a><div class="flex-spacer"></div><a class="nav-link" href="/get-it/">Get it</a><a class="nav-link" href="/api/">API</a><a class="nav-link" href="/faq/">FAQ</a><a class="nav-link" href="/posts/">Blog</a></nav></header><div class="content"><main class="post"><h1>GM_* APIs</h1><article><p><code class="language-text">GM_*</code> are a group of special APIs provided by Violentmonkey.</p>
+<h3 id="gm_info"><a href="#gm_info" aria-label="gm_info permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GM_info</h3>
+<p>An object that exposes information about the current userscript. It has following properties:</p>
+<ul>
+<li>
+<p><code class="language-text">uuid</code></p>
+<p>A unique ID of the script.</p>
+</li>
+<li>
+<p><code class="language-text">scriptMetaStr</code></p>
+<p>The meta block of the script.</p>
+</li>
+<li>
+<p><code class="language-text">scriptWillUpdate</code></p>
+<p>Whether the script will be updated automatically.</p>
+</li>
+<li>
+<p><code class="language-text">scriptHandler</code></p>
+<p>The name of userscript manager, which should be the string <code class="language-text">Violentmonkey</code>.</p>
+</li>
+<li>
+<p><code class="language-text">version</code></p>
+<p>Version of Violentmonkey.</p>
+</li>
+<li>
+<p><code class="language-text">script</code></p>
+<p>An object containing structured fields from the <a href="../metadata-block/">Metadata Block</a>:</p>
+<ul>
+<li><code class="language-text">description</code> <em>string</em></li>
+<li><code class="language-text">excludes</code> <em>array</em></li>
+<li><code class="language-text">includes</code> <em>array</em></li>
+<li><code class="language-text">matches</code> <em>array</em></li>
+<li><code class="language-text">name</code> <em>string</em></li>
+<li><code class="language-text">namespace</code> <em>string</em></li>
+<li><code class="language-text">resources</code> <em>array &#x3C;string name, string url></em></li>
+<li><code class="language-text">runAt</code> <em>string</em></li>
+<li><code class="language-text">version</code> <em>string</em></li>
+</ul>
+</li>
+<li>
+<p><code class="language-text">injectInto</code> <em>added in Violentmonkey v2.10.0</em></p>
+<p>The injection mode of current script. See <a href="/api/metadata-block/#inject-into"><code class="language-text">@inject-mode</code></a> for more information.</p>
+</li>
+</ul>
+<h3 id="gm_getvalue"><a href="#gm_getvalue" aria-label="gm_getvalue permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GM_getValue</h3>
+<p>Retrieve a value for current script from storage.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">GM_getValue</span><span class="token punctuation">(</span>key<span class="token punctuation">,</span> <span class="token keyword">default</span><span class="token punctuation">)</span></code></pre></div>
+<ul>
+<li>
+<p><code class="language-text">key</code> <em>string</em></p>
+<p>The name for <code class="language-text">value</code> to load.</p>
+</li>
+<li>
+<p><code class="language-text">default</code> <em>any</em></p>
+<p>The default value to return if no value exists in the storage.</p>
+</li>
+</ul>
+<p>Returns the retrieved value or default value.</p>
+<h3 id="gm_setvalue"><a href="#gm_setvalue" aria-label="gm_setvalue permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GM_setValue</h3>
+<p>Set a key / value pair for current script to storage.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">GM_setValue</span><span class="token punctuation">(</span>key<span class="token punctuation">,</span> value<span class="token punctuation">)</span></code></pre></div>
+<ul>
+<li>
+<p><code class="language-text">key</code> <em>string</em></p>
+<p>The unique name for <code class="language-text">value</code> within this script.</p>
+</li>
+<li>
+<p><code class="language-text">value</code> <em>any</em></p>
+<p>The value to be stored, which must be <strong>JSON serializable</strong>.</p>
+</li>
+</ul>
+<p>Returns nothing.</p>
+<h3 id="gm_deletevalue"><a href="#gm_deletevalue" aria-label="gm_deletevalue permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GM_deleteValue</h3>
+<p>Delete an existing key / value pair for current script from storage.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">GM_deleteValue</span><span class="token punctuation">(</span>key<span class="token punctuation">)</span></code></pre></div>
+<p>Returns nothing.</p>
+<h3 id="gm_listvalues"><a href="#gm_listvalues" aria-label="gm_listvalues permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GM_listValues</h3>
+<p>Retrieve the list of keys of all available values within this script.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">GM_listValues</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre></div>
+<p>Returns an array of all available keys.</p>
+<h3 id="gm_getresourcetext"><a href="#gm_getresourcetext" aria-label="gm_getresourcetext permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GM_getResourceText</h3>
+<p>Retrieve the predefined text resource.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">GM_getResourceText</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span></code></pre></div>
+<ul>
+<li>
+<p><code class="language-text">name</code> <em>string</em></p>
+<p>Name of resource that is defined in <a href="../metadata-block/#resource">metadata block</a>.</p>
+</li>
+</ul>
+<p>Returns the predefined text content.</p>
+<h3 id="gm_getresourceurl"><a href="#gm_getresourceurl" aria-label="gm_getresourceurl permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GM_getResourceURL</h3>
+<p>Retrieve a BLOB URL of the predefined resource.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">GM_getResourceURL</span><span class="token punctuation">(</span>name<span class="token punctuation">)</span></code></pre></div>
+<ul>
+<li>
+<p><code class="language-text">name</code> <em>string</em></p>
+<p>Name of resource that is defined in <a href="../metadata-block/#resource">metadata block</a>.</p>
+</li>
+</ul>
+<p>Returns a BLOB URL.</p>
+<h3 id="gm_addstyle"><a href="#gm_addstyle" aria-label="gm_addstyle permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GM_addStyle</h3>
+<p>Creates a <code class="language-text">&lt;style&gt;</code> element and injects some CSS.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">GM_addStyle</span><span class="token punctuation">(</span>css<span class="token punctuation">)</span>
+<span class="token punctuation">.</span><span class="token function">then</span><span class="token punctuation">(</span><span class="token parameter">style</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'This is the &lt;style> element:'</span><span class="token punctuation">,</span> style<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre></div>
+<ul>
+<li>
+<p><code class="language-text">css</code> <em>string</em></p>
+<p>The CSS code to inject.</p>
+</li>
+</ul>
+<p>Returns a Promise-like object with a <code class="language-text">.then</code> method, which accepts a callback whose first argument is the injected <code class="language-text">&lt;style&gt;</code> element.</p>
+<h3 id="gm_openintab"><a href="#gm_openintab" aria-label="gm_openintab permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GM_openInTab</h3>
+<p>Open URL in a new tab.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">GM_openInTab</span><span class="token punctuation">(</span>url<span class="token punctuation">,</span> options<span class="token punctuation">)</span>
+<span class="token function">GM_openInTab</span><span class="token punctuation">(</span>url<span class="token punctuation">,</span> openInBackground<span class="token punctuation">)</span></code></pre></div>
+<ul>
+<li>
+<p><code class="language-text">url</code> <em>string</em></p>
+<p>The URL to open in a new tab. URL relative to current page is also allowed.</p>
+<p>Note: Firefox does not support data URLs.</p>
+</li>
+<li>
+<p><code class="language-text">options</code> <em>object optional</em></p>
+<ul>
+<li>
+<p><code class="language-text">options.active</code> <em>boolean</em></p>
+<p>Whether the new tab should be loaded and activated.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>The second usage is compatible with Greasemonkey.</p>
+<ul>
+<li>
+<p><code class="language-text">openInBackground</code> <em>boolean</em></p>
+<p><code class="language-text">openInBackground = true</code> is the same as <code class="language-text">options = { active: false }</code>.</p>
+</li>
+</ul>
+<p>Returns an object with following properties:</p>
+<ul>
+<li>
+<p><code class="language-text">onclose</code></p>
+<p>Can be assigned to a function. If provided, it will be called when the tab opened is closed.</p>
+</li>
+<li>
+<p><code class="language-text">closed</code> <em>boolean</em></p>
+<p>Whether the tab opened is closed.</p>
+</li>
+<li>
+<p><code class="language-text">close</code> <em>function</em></p>
+<p>A function to explicitly close the tab opened.</p>
+</li>
+</ul>
+<h3 id="gm_registermenucommand"><a href="#gm_registermenucommand" aria-label="gm_registermenucommand permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GM_registerMenuCommand</h3>
+<p>Register a command to Violentmonkey popup menu.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">GM_registerMenuCommand</span><span class="token punctuation">(</span>caption<span class="token punctuation">,</span> func<span class="token punctuation">)</span></code></pre></div>
+<ul>
+<li>
+<p><code class="language-text">caption</code> <em>string</em></p>
+<p>The name to show in the popup menu.</p>
+</li>
+<li>
+<p><code class="language-text">func</code> <em>function</em></p>
+<p>The function to execute when clicked in the menu.</p>
+</li>
+</ul>
+<p>If you want to add a shortcut, please see <a href="https://github.com/violentmonkey/vm-shortcut">vm.shortcut</a>.</p>
+<h3 id="gm_unregistermenucommand"><a href="#gm_unregistermenucommand" aria-label="gm_unregistermenucommand permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GM_unregisterMenuCommand</h3>
+<p>Unregister a command which has been registered to Violentmonkey popup menu.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">GM_unregisterMenuCommand</span><span class="token punctuation">(</span>caption<span class="token punctuation">)</span></code></pre></div>
+<ul>
+<li>
+<p><code class="language-text">caption</code> <em>string</em></p>
+<p>The name of command to be unregistered.</p>
+</li>
+</ul>
+<h3 id="gm_notification"><a href="#gm_notification" aria-label="gm_notification permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GM_notification</h3>
+<p>Show a HTML5 desktop notification.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">GM_notification</span><span class="token punctuation">(</span>options<span class="token punctuation">)</span>
+<span class="token function">GM_notification</span><span class="token punctuation">(</span>text<span class="token punctuation">,</span> title<span class="token punctuation">,</span> image<span class="token punctuation">,</span> onclick<span class="token punctuation">)</span></code></pre></div>
+<ul>
+<li>
+<p><code class="language-text">options</code> <em>object</em></p>
+<ul>
+<li>
+<p><code class="language-text">options.text</code> <em>string required</em></p>
+<p>Main text of the notification.</p>
+</li>
+<li>
+<p><code class="language-text">options.title</code> <em>string</em></p>
+<p>Title of the notification.</p>
+</li>
+<li>
+<p><code class="language-text">options.image</code> <em>string</em></p>
+<p>URL of an image to show in the notification.</p>
+</li>
+<li>
+<p><code class="language-text">options.onclick</code> <em>function</em></p>
+<p>Callback when the notification is clicked by user.</p>
+</li>
+<li>
+<p><code class="language-text">options.ondone</code> <em>function</em></p>
+<p>Callback when the notification is closed, either by user or by system.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>The second usage is compatible with Greasemonkey.</p>
+<ul>
+<li><code class="language-text">text</code> <em>string required</em></li>
+<li><code class="language-text">title</code> <em>string</em></li>
+<li><code class="language-text">image</code> <em>string</em></li>
+<li><code class="language-text">onclick</code> <em>function</em></li>
+</ul>
+<h3 id="gm_setclipboard"><a href="#gm_setclipboard" aria-label="gm_setclipboard permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GM_setClipboard</h3>
+<p>Set data to system clipboard.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">GM_setClipboard</span><span class="token punctuation">(</span>data<span class="token punctuation">,</span> type<span class="token punctuation">)</span></code></pre></div>
+<ul>
+<li>
+<p><code class="language-text">data</code></p>
+<p>The data to be copied to system clipboard.</p>
+</li>
+<li>
+<p><code class="language-text">type</code> <em>string</em></p>
+<p>The type of data to copy. Default as <code class="language-text">text/plain</code>.</p>
+</li>
+</ul>
+<h3 id="gm_xmlhttprequest"><a href="#gm_xmlhttprequest" aria-label="gm_xmlhttprequest permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GM_xmlhttpRequest</h3>
+<p>Make a request like XMLHttpRequest, with some special capabilities.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">GM_xmlhttpRequest</span><span class="token punctuation">(</span>details<span class="token punctuation">)</span></code></pre></div>
+<ul>
+<li>
+<p><code class="language-text">details</code></p>
+<p>An object with following properties:</p>
+<ul>
+<li>
+<p><code class="language-text">details.url</code> <em>string required</em></p>
+<p>URL relative to current page is also allowed.</p>
+</li>
+<li>
+<p><code class="language-text">details.method</code> <em>string</em></p>
+<p>Default as <code class="language-text">GET</code>.</p>
+</li>
+<li>
+<p><code class="language-text">details.user</code> <em>string</em></p>
+<p>User for authentication.</p>
+</li>
+<li>
+<p><code class="language-text">details.password</code> <em>string</em></p>
+<p>Password for authentication.</p>
+</li>
+<li>
+<p><code class="language-text">details.overrideMimetype</code> <em>string</em></p>
+<p>A Mimetype to specify with the request.</p>
+</li>
+<li>
+<p><code class="language-text">details.headers</code> <em>object</em></p>
+<p>Some special headers are also allowed:</p>
+<ul>
+<li><code class="language-text">Cookie</code></li>
+<li><code class="language-text">Host</code></li>
+<li><code class="language-text">Origin</code></li>
+<li><code class="language-text">Referer</code></li>
+<li><code class="language-text">User-Agent</code></li>
+</ul>
+</li>
+<li>
+<p><code class="language-text">details.responseType</code> <em>string</em></p>
+<p>One of <code class="language-text">text</code>, <code class="language-text">json</code>, <code class="language-text">blob</code> and <code class="language-text">arraybuffer</code>. The default value is <code class="language-text">text</code>.</p>
+</li>
+<li>
+<p><code class="language-text">details.timeout</code> <em>number</em> <em>v2.9.5+</em></p>
+<p>Time to wait for the request, none by default.</p>
+</li>
+<li>
+<p><code class="language-text">details.data</code> <em>string | FormData | Blob</em></p>
+<p>Data to send with the request, usually for <code class="language-text">POST</code> and <code class="language-text">PUT</code> requests.</p>
+</li>
+<li>
+<p><code class="language-text">details.context</code> <em>any</em></p>
+<p>It can be an object and will be assigned to <code class="language-text">context</code> of the response object.</p>
+</li>
+<li>
+<p><code class="language-text">details.anonymous</code> <em>boolean</em> <em>v2.10.1+</em></p>
+<p>When set to <code class="language-text">true</code>, no cookie will be sent with the request. The default value is <code class="language-text">false</code>.</p>
+</li>
+<li>
+<p>Event handlers:</p>
+<ul>
+<li><code class="language-text">details.onabort</code></li>
+<li><code class="language-text">details.onerror</code></li>
+<li><code class="language-text">details.onload</code></li>
+<li><code class="language-text">details.onloadend</code></li>
+<li><code class="language-text">details.onprogress</code></li>
+<li><code class="language-text">details.onreadystatechange</code></li>
+<li><code class="language-text">details.ontimeout</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>Note:</p>
+<ul>
+<li><code class="language-text">details.synchronous</code> is not supported.</li>
+</ul>
+</blockquote>
+<p>Returns an object with following properties:</p>
+<ul>
+<li>
+<p><code class="language-text">abort</code> <em>function</em></p>
+<p>A function to abort the request.</p>
+</li>
+</ul>
+<p>The response object will be passed to each event handler, with following properties:</p>
+<ul>
+<li>
+<p><code class="language-text">status</code></p>
+<p>Same as a standard <code class="language-text">XMLHttpRequest</code>.</p>
+</li>
+<li>
+<p><code class="language-text">statusText</code></p>
+<p>Same as a standard <code class="language-text">XMLHttpRequest</code>.</p>
+</li>
+<li>
+<p><code class="language-text">readyState</code></p>
+<p>Same as a standard <code class="language-text">XMLHttpRequest</code>.</p>
+</li>
+<li>
+<p><code class="language-text">responseHeaders</code></p>
+<p>An object of all response headers.</p>
+</li>
+<li>
+<p><code class="language-text">responseText</code></p>
+<p>Same as a standard <code class="language-text">XMLHttpRequest</code>, only provided when available.</p>
+</li>
+<li>
+<p><code class="language-text">finalUrl</code></p>
+<p>The final URL after redirection.</p>
+</li>
+<li>
+<p><code class="language-text">context</code></p>
+<p>The same object passed to the original request.</p>
+</li>
+</ul>
+<h3 id="gm_download"><a href="#gm_download" aria-label="gm_download permalink" class="anchor"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GM_download</h3>
+<p><em>v2.9.5+</em></p>
+<p>Download a URL and save it as a local file.</p>
+<div class="gatsby-highlight" data-language="js"><pre class="language-js"><code class="language-js"><span class="token function">GM_download</span><span class="token punctuation">(</span>options<span class="token punctuation">)</span>
+<span class="token comment">// or</span>
+<span class="token function">GM_download</span><span class="token punctuation">(</span>url<span class="token punctuation">,</span> name<span class="token punctuation">)</span></code></pre></div>
+<ul>
+<li>
+<p><code class="language-text">options</code></p>
+<p>An object with following properties:</p>
+<ul>
+<li>
+<p><code class="language-text">options.url</code> <em>string required</em></p>
+<p>The URL to download.</p>
+</li>
+<li>
+<p><code class="language-text">options.name</code> <em>string</em></p>
+<p>The filename to save as.</p>
+</li>
+<li>
+<p><code class="language-text">options.onload</code> <em>function</em></p>
+<p>The function to call when download started successfully.</p>
+</li>
+</ul>
+<p>Properties below is the same as those for <code class="language-text">GM_xmlhttpRequest</code>:</p>
+<ul>
+<li><code class="language-text">options.headers</code> <em>object</em></li>
+<li><code class="language-text">options.timeout</code> <em>number</em></li>
+<li><code class="language-text">options.onerror</code> <em>function</em></li>
+<li><code class="language-text">options.onprogress</code> <em>function</em></li>
+<li><code class="language-text">options.ontimeout</code> <em>function</em></li>
+</ul>
+</li>
+</ul></article></main><footer class="footer d-flex"><div>Violentmonkey<!-- --> <!-- -->© All rights reserved.</div><div class="flex-spacer"></div><a class="footer-link-item" href="/privacy/">Privacy Policy</a></footer></div></div></div><script>
+  window.excludeGAPaths=[/^(?:\/(?=.)auth_[^\/]*?[^\/]*?)$/];
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'UA-93752732-1', 'auto', {});
+      
+      
+      
+      
+      
+      }</script><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/api/gm/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-f1a8ae6a3ca45b77fac0.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-a7388efdc62430243a75.js"],"component---src-templates-posts-template-js":["/component---src-templates-posts-template-js-4a0da2ac840218bbfcc7.js"],"component---src-templates-page-template-js":["/component---src-templates-page-template-js-4fa4a6bf396e700d98a6.js"],"component---src-templates-post-template-js":["/component---src-templates-post-template-js-8e1e62c9660f102acbb1.js"],"component---src-templates-tag-template-js":["/component---src-templates-tag-template-js-102590253377047d91cb.js"],"component---src-templates-category-template-js":["/component---src-templates-category-template-js-303ff264f9eb8a3f23f6.js"],"component---src-pages-404-js":["/component---src-pages-404-js-94d3c4aace54eaef8cd5.js"],"component---src-pages-categories-js":["/component---src-pages-categories-js-9cde2c6d738b4a61ce36.js"],"component---src-pages-donate-js":["/component---src-pages-donate-js-a62ffd469001775161e4.js"],"component---src-pages-index-js":["/component---src-pages-index-js-0f31bf31caf0abc004fb.js"],"component---src-pages-tags-js":["/component---src-pages-tags-js-9fd13776447e472980af.js"]};/*]]>*/</script><script src="/webpack-runtime-a117643eb54a4cdba413.js" async=""></script><script src="/commons-87aa9a6d86164b33adcf.js" async=""></script><script src="/styles-ed0dc4fc70e1fe44984b.js" async=""></script><script src="/component---src-templates-page-template-js-4fa4a6bf396e700d98a6.js" async=""></script><script src="/app-f1a8ae6a3ca45b77fac0.js" async=""></script></body></html>
